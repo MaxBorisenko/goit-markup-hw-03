@@ -1,0 +1,136 @@
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+ul, ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.header-logo .logo-pat {
+    color: #2E2F42;
+}
+
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.header-nav-menu-list-link{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.header-adress{
+    font-style: normal
+}
+
+.header-address-menu-list-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-address-menu-list-link:hover,
+.header-address-menu-list-link:focus,
+.header-nav-menu-list-link:hover,
+.header-nav-menu-list-link:focus {
+    color: #404BBF;
+}
+
+.hero{
+    background-color: #2E2F42;
+}
+
+.hero-title{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+}
+
+.hero-button{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color:#4D5AE5;
+    cursor: pointer;
+    font-weight: 500;
+     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+     color: #FFFFFF;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color:#404BBF;
+}
+
+.team-list-item{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: #fff;
+}
+.portfolio-list-item-title,
+.features-list-item-title,
+.team-list-item-title
+{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.team-list-item-text,
+.features-list-item-text,
+.portfolio-list-item-text,
+.footer-text{
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team{
+    background-color:#f4f4fd;;
+}
+
+.portfolio-title,
+.team-title,
+.features-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.team-list-item-title,
+.team-list-item-text{
+    text-align: center;
+}
+
+.page-footer{
+    background-color: #2E2F42;
+    color: #f4f4fd;
+}
+
+.footer-logo .logo-pat {
+    color: #f4f4fd;
+}
