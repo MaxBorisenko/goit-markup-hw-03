@@ -3,11 +3,53 @@ body{
     background-color: #FFFFFF;
     color: #434455;
 }
+
+/* reset */
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+
+}
+
 ul, ol{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 a{
     text-decoration: none;
+}
+
+/* common */
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header */
+
+.header-container{
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+    align-items: center;
+}
+
+.header-logo{
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
 }
 
 .header-logo .logo-pat {
@@ -24,7 +66,15 @@ a{
     color: #4D5AE5;
 }
 
+.header-nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .header-nav-menu-list-link{
+        display: block;
+        padding: 24px 0;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -32,11 +82,21 @@ a{
         color: #2e2f42;
 }
 
-.header-adress{
-    font-style: normal
+.header-address{
+    font-style: normal;
+    margin-left: auto;
+
+}
+
+.header-address-menu{
+    display: flex;
+    align-items: center;;
+    gap: 40px;
 }
 
 .header-address-menu-list-link{
+    display: block;
+    padding: 24px 0;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -52,20 +112,40 @@ a{
     color: #404BBF;
 }
 
+/* main */
+/* hero */
+
 .hero{
-    background-color: #2E2F42;
+    background-color:#2E2F42;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:188px 0;
 }
 
 .hero-title{
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
-        text-align: center;
+    max-width: 496px;
+    margin-bottom: 48px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 .hero-button{
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color:#4D5AE5;
     cursor: pointer;
@@ -81,7 +161,30 @@ a{
     background-color:#404BBF;
 }
 
+/* features*/
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features-list{
+    display: flex;
+    padding: 120px 0;
+    justify-content: center;
+    
+}
+
 .team-list-item{
+    width:calc((100% - 72px) / 4);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
 }
@@ -106,8 +209,35 @@ font-weight: 400;
     letter-spacing: 0.02em;
 }
 
+/* team */
+
 .team{
     background-color:#f4f4fd;;
+}
+
+.team-title{
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+    justify-content: center;
+}
+
+.team-list-item{
+border-radius: 0 0 4px 4px;
+}
+
+.team-list-item-title{
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.team-list-item-text{
+    margin-bottom: 32px;
 }
 
 .portfolio-title,
@@ -125,6 +255,44 @@ font-weight: 400;
 .team-list-item-text{
     text-align: center;
 }
+
+/* portfolio */
+
+.portfolio-title{
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+
+.portfolio-list{
+    display: flex;
+    gap: 48px 24px;
+    padding-bottom: 120px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-list-item{
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-list-item-title{
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.portfolio-list-item-text{
+    margin-bottom: 32px;
+}
+
+/* footer */
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+   padding: 100px 0;
+   max-width: 264px;
+    gap:16px;
+} 
 
 .page-footer{
     background-color: #2E2F42;
