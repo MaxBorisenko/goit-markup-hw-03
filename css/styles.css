@@ -169,7 +169,7 @@ img{
 .features,
 .team,
 .portfolio{
-    padding-top: 120px 0;
+    padding: 120px 0;
 }
 
 .visually-hidden {
@@ -312,7 +312,6 @@ border-radius: 0 0 4px 4px;
 .footer-content{
     display: flex;
     flex-direction: column;
-   padding: 100px 0;
    max-width: 264px;
     gap:16px;
 } 
