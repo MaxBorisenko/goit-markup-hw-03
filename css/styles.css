@@ -6,7 +6,7 @@ body{
 
 /* reset */
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6,p{
     margin: 0;
 
 }
@@ -36,9 +36,11 @@ img{
 
 /* header */
 
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
 .header-container{
     display: flex;
-    border-bottom: 1px solid #e7e9fc;
     align-items: center;
 }
 
@@ -120,6 +122,7 @@ img{
 }
 
 .hero-container{
+    padding: 188px 0;
     display: flex;
     align-items: center;
    justify-content: center;
@@ -129,10 +132,10 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:188px 0;
 }
 
 .hero-title{
+    text-align: center;
     max-width: 496px;
     margin-bottom: 48px;
     font-weight: 700;
@@ -163,6 +166,11 @@ img{
 
 /* features*/
 
+.container-features{
+    padding-top: 120px;
+    padding-bottom: 144px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -178,7 +186,6 @@ img{
 
 .features-list{
     display: flex;
-    padding: 120px 0;
     justify-content: center;
     gap: 24px;
 }
@@ -215,19 +222,22 @@ font-weight: 400;
 
 /* team */
 
+.container-team{
+    padding-top: 96px;
+    padding-bottom: 144px;
+}
+
 .team{
     background-color:#f4f4fd;;
 }
 
 .team-title{
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
     justify-content: center;
 }
 
@@ -235,13 +245,15 @@ font-weight: 400;
 border-radius: 0 0 4px 4px;
 }
 
+.team-content{
+    padding: 32px 16px;
+}
+
 .team-list-item-title{
-    margin-top: 32px;
-    margin-bottom: 8px;
+    margin-bottom: 8px; 
 }
 
 .team-list-item-text{
-    margin-bottom: 32px;
 }
 
 .portfolio-title,
@@ -262,15 +274,18 @@ border-radius: 0 0 4px 4px;
 
 /* portfolio */
 
-.portfolio-title{
+.container-portfolio{
     padding-top: 96px;
-    padding-bottom: 72px;
+    padding-bottom: 120px;
+}
+
+.portfolio-title{
+    margin-bottom: 72px;
 }
 
 .portfolio-list{
     display: flex;
     gap: 48px 24px;
-    padding-bottom: 120px;
     justify-content: center;
     flex-wrap: wrap;
 }
