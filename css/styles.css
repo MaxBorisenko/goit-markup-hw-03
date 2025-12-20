@@ -195,11 +195,11 @@ img{
     width: calc((100% - 72px) / 4);
 }
 
-.team-list-item{
-    width:calc((100% - 72px) / 4);
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        background: #fff;
+.features-list-item-title{
+    margin-bottom: 8px;
 }
+
+
 .portfolio-list-item-title,
 .features-list-item-title,
 .team-list-item-title
@@ -240,7 +240,10 @@ font-weight: 400;
 }
 
 .team-list-item{
-border-radius: 0 0 4px 4px;
+    width:calc((100% - 72px) / 4);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba (46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    border-radius: 0 0 4px 4px;
 }
 
 .team-content{
@@ -293,18 +296,16 @@ border-radius: 0 0 4px 4px;
 
 .portfolio-list-text{
     border-bottom: 1px solid #e7e9fc;
-        border-left: 1px solid #e7e9fc;
-        border-right: 1px solid #e7e9fc;
-        padding: 32px 16px;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
 }
 
 .portfolio-list-item-title{
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
 .portfolio-list-item-text{
-    margin-bottom: 32px;
 }
 
 /* footer */
